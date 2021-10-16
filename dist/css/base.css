@@ -1,0 +1,16 @@
+body{
+    min-width: 1190px;
+    background-color: #f4f4f4;
+    position: relative;
+    width: 100%;
+}
+.w{
+    width: 1190px;
+    margin: 0 auto;
+}
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display:table;
+    clear: both;
+}
